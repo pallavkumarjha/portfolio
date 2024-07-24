@@ -1,0 +1,82 @@
+.projects {
+  padding: 60px 20px;
+  background-color: #f7f9fc; /* Light background for a clean look */
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-icon {
+  flex-shrink: 0;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Consistent font family */
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #555;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Consistent font family */
+}
+
+.project-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: grey;
+  font-family: 'Roboto', sans-serif; /* Consistent font family */
+  transition: background 0.3s, transform 0.3s;
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: right;
+}
+
+.project-card a:hover {
+  background: linear-gradient(45deg, #388E3C, #66BB6A); /* Darker gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}

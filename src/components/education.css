@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.education {
+  background-color: #f0f8ff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.education:hover {
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.education li:hover {
+  background-color: #e6f7ff;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #007bff;
+}
