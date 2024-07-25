@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import { FaLocationDot, FaGithub, FaLinkedin, FaSquareXTwitter, FaMedium, FaInstagram } from "react-icons/fa6";
 import { FcDisclaimer } from "react-icons/fc";
-
+import { RiEmotionLaughFill } from "react-icons/ri";
 
 function Header() {
 
@@ -36,7 +36,7 @@ function Header() {
                 </a>
               </div>
               <div className='disclaimer-section'>
-                <FcDisclaimer /> : I'm not a travel vlogger. Yet. And this website is mostly <strong> made with AI-generated content </strong>. Mostly. With littttleeee bit of human intervention.
+                <RiEmotionLaughFill style={{marginRight: '2px'}} /> I'm not a travel vlogger. Yet. And this website is mostly <strong> made with AI-generated content </strong>. Mostly. With littttleeee bit of human intervention.
                 <p className='updated-on'>Last updated : 25th Jul '24</p>
               </div>
             </div>
