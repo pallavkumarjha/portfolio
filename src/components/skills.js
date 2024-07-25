@@ -9,47 +9,76 @@ import './skills.css';
 function Skills() {
   const skillList = [
     {
-      title: 'Programming',
-      description: 'Expert in HTML, CSS, JavaScript, and TypeScript.',
+      title: 'Reactjs',
+      description: 'Proficient in front-end development with React.js.',
       icon: <IoLogoHtml5 size={60} />,
       color: '#f28e2b', // Soft orange
+      skillLevel: 3
     },
     {
-      title: 'Backend Development',
-      description: 'Experienced with Node.js and SQL/NoSQL databases.',
+      title: 'Javascript',
+      description: 'Strong understanding of JavaScript and TypeScript.',
       icon: <FaCss3Alt size={60} />,
       color: '#f28e2b', // Soft orange
+      skillLevel: 3
     },
     {
-      title: 'DevOps',
-      description: 'Proficient in deployment and CI/CD pipelines.',
+      title: 'HTML/CSS',
+      description: 'Strong knowledge of HTML and CSS.',
       icon: <IoLogoHtml5 size={60} />,
       color: '#f28e2b', // Soft orange
+      skillLevel: 3
     },
     {
-      title: 'Command Line',
-      description: 'Comfortable with Unix/Linux command line tools.',
+      title: 'React native',
+      description: 'Experience with mobile app development using React Native.',
       icon: <FaCss3Alt size={60} />,
       color: '#f28e2b', // Soft orange
+      skillLevel: 2
     },
     {
-      title: 'Security',
-      description: 'Strong understanding of authentication and authorization.',
+      title: 'Nodejs',
+      description: 'Some knowledge of back-end development with Node.js.',
       icon: <IoLogoHtml5 size={60} />,
       color: '#f28e2b', // Soft orange
+      skillLevel: 1
+    },
+    {
+      title: 'CI/CD',
+      description: 'Experience with CI/CD pipelines using Vercel and netlify.',
+      icon: <IoLogoHtml5 size={60} />,
+      color: '#f28e2b', // Soft orange
+      skillLevel: 1
+    },
+    {
+      title: 'Firebase',
+      description: 'Experience with Firebase for authentication and database.',
+      icon: <IoLogoHtml5 size={60} />,
+      color: '#f28e2b', // Soft orange
+      skillLevel: 3
     },
     // Add more skills here
   ];
+
+  const getSkillColor = (skillLevel) => {
+    switch (skillLevel) {
+      case 1:
+        return '#F5E8E9';
+      case 2:
+        return '#D8A7B1'; 
+      case 3:
+        return '#A8858F'; 
+      default:
+        return '#D8A7B1'; 
+    }
+  }
 
   return (
     <div className="skills">
       <h2>Skills</h2>
       <div className="skill-list">
         {skillList.map((skill, index) => (
-          <div className="skill-item" key={index} style={{ borderColor: skill.color }}>
-            <div className="skill-icon" style={{ color: skill.color }}>
-              {skill.icon}
-            </div>
+          <div className="skill-item" key={index} style={{ borderColor: skill.color, backgroundColor: getSkillColor(skill.skillLevel)  }}>
             <div className="skill-info">
               <h3>{skill.title}</h3>
             </div>

@@ -8,14 +8,12 @@ body {
 .resume {
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
   padding: 50px;
-  border-radius: 15px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
   color: #333;
-  margin: 50px auto;
-  max-width: 600px;
   text-align: center;
   animation: slideInFromLeft 1s ease-out;
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 50px;
 }
 
 .resume:hover {
@@ -36,7 +34,7 @@ body {
 
 .resume h2 {
   font-weight: 700;
-  color: #2c3e50;
+  color: white;
   margin-bottom: 30px;
   position: relative;
   font-size: 32px;
@@ -47,7 +45,7 @@ body {
   display: inline-block;
   width: 60px;
   height: 4px;
-  background: #2c3e50;
+  background: white;
   margin-top: 10px;
   border-radius: 2px;
   vertical-align: middle;

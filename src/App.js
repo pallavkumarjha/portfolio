@@ -15,17 +15,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        {/* <Navbar /> */}
+      <div className='left-column'>
         <Header />
-        <Projects />
+      </div>
+      <div className='right-column'>
         <Skills />
-        <Hobbies />
-        <Education />
+        <Projects />
         <WorkExperience />
-        {/* <Certifications /> */}
-        <Contact />
-        <Resume />
-        <Footer />
+      </div>
+        {/* <Hobbies /> */}
+        {/* <Education /> */}
+        {/* <Contact /> */}
+        {/* <Resume />
+        <Footer /> */}
       </div>
   );
 }
