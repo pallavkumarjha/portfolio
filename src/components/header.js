@@ -30,6 +30,11 @@ function Header() {
                 <a href="https://x.com/the_visutor" target='_blank' rel="noreferrer"><FaSquareXTwitter /></a>
                 <a href="https://www.instagram.com/pallav_jha26/" target='_blank' rel="noreferrer"><FaInstagram /></a>
               </div>
+              <div className='buy-coffee'>
+                <a href="https://www.buymeacoffee.com/pallavjha" target='_blank' rel='noreferrer'>
+                  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=pallavjha&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+                </a>
+              </div>
               <div className='disclaimer-section'>
                 <FcDisclaimer /> : I'm not a travel vlogger. Yet. And this website is mostly <strong> made with AI-generated content </strong>. Mostly. With littttleeee bit of human intervention.
                 <p className='updated-on'>Last updated : 25th Jul '24</p>

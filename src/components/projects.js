@@ -24,9 +24,9 @@ function Projects() {
       icon: <FcServices size={60} color="#4CAF50" />, // Icon for code-related projects
     },
     {
-      title: 'MyPlace.co Project',
-      description: 'Migrated and revamped an old codebase with new UI and microservices.',
-      link: '#',
+      title: 'Should I read it?',
+      description: 'Read the book summary before reading the actual book',
+      link: 'https://shouldireadit.netlify.app/',
       icon: <FcHome size={60} color="#4CAF50" />, // Icon for map/place
     },
     // Add more projects here
@@ -42,7 +42,7 @@ function Projects() {
             <div className="project-content">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">Learn More</a>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">Visit website</a>
             </div>
           </div>
         ))}

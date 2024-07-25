@@ -76,6 +76,5 @@
 }
 
 .project-card a:hover {
-  background: linear-gradient(45deg, #388E3C, #66BB6A); /* Darker gradient on hover */
   transform: scale(1.05); /* Slight zoom effect */
 }
